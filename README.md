@@ -101,6 +101,11 @@ sudo ufw allow https`
 
 The final step was configuring my router to reroute incoming traffic that requested my domain to the Pi, where it could send back my website. This is dependent upon your router but for me it was relatively easy to set up DDNS and log in to No-IP domain provider. 
 
+## Automating site updates after pushing to the repository
+
+After a lot of trouble, I finally got the RPi to automatically pull down new pushes to the webhook almost instantaneously using GitHub webhooks and PHP code that is automatically triggered every time. It is secured via SSH and a secret to ensure only I can trigger this process. Now the website should always be in 
+tandem with this repo. 
+
 ## Final notes
 
-And that's it\! In the end this project took me about 8 hours to research and complete, and I am incredibly happy with the result. As you can see I installed and used Git on my RPi to update the website. It is so cool to me to have a corner of the internet I can physically locate on a map that is mine. I really enjoyed this project, and hope to continue learning HTML and update the server accordingly. 
+And that's it\! In the end this project took me about 8 + 3 hours to research and complete, and I am incredibly happy with the result. As you can see I installed and used Git on my RPi to update the website. It is so cool to me to have a corner of the internet I can physically locate on a map that is mine. I really enjoyed this project, and hope to continue learning HTML and update the server accordingly. 
