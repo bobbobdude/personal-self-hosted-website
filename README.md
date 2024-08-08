@@ -106,6 +106,10 @@ The final step was configuring my router to reroute incoming traffic that reques
 After a lot of trouble, I finally got the RPi to automatically pull down new pushes to the webhook almost instantaneously using GitHub webhooks and PHP code that is automatically triggered every time. It is secured via SSH and a secret to ensure only I can trigger this process. Now the website should always be in 
 tandem with this repo. 
 
+## Automatic backups to Google Drive 
+
+Using [Rclone](https://rclone.org/), a simple SH script and creating a cron job my server automatically backs up all the configaration files to my Google Drive every day at 2AM.
+
 ## Final notes
 
-And that's it\! In the end this project took me about 8 + 3 hours to research and complete, and I am incredibly happy with the result. As you can see I installed and used Git on my RPi to update the website. It is so cool to me to have a corner of the internet I can physically locate on a map that is mine. I really enjoyed this project, and hope to continue learning HTML and update the server accordingly. 
+And that's it\! In the end this project took me about 8 + 3 + 2 hours to research and complete, and I am incredibly happy with the result. As you can see I installed and used Git on my RPi to update the website. It is so cool to me to have a corner of the internet I can physically locate on a map that is mine. I really enjoyed this project, and hope to continue learning HTML and update the server accordingly. 
