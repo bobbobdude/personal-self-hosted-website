@@ -67,7 +67,7 @@ We then enable the site by modifying the sites-enabled directory through the fol
 
 `sudo a2ensite example.com.conf`
 
-So now you can have multiple sites on the same server\! Whoohoo\!
+So now you can have multiple sites on the same server\! WHOOHOO\!
 
 ## Configuring No-IP with automatic updates
 
@@ -108,8 +108,17 @@ tandem with this repo.
 
 ## Automatic backups to Google Drive 
 
-Using [Rclone](https://rclone.org/), a simple SH script and creating a cron job my server automatically backs up all the configaration files to my Google Drive every day at 2AM.
+Using [Rclone](https://rclone.org/), a simple SH script and creating a cron job my server automatically backs up all the configuration files to my Google Drive every day at 2AM.
+
+## Setting up fail2ban 
+
+I set up [fail2ban](https://github.com/fail2ban/fail2ban) to block: 
+1. Brute force SSH attacks
+2. Repeated failed login attempts to areas requiring auth (none at the moment - but who knows in the future!)
+3. Bad bots such as scrapers 
+4. Attempts to access my home directories 
+5. Attempts to access non-existent pages/directory traversal 
 
 ## Final notes
 
-And that's it\! In the end this project took me about 8 + 3 + 2 hours to research and complete, and I am incredibly happy with the result. As you can see I installed and used Git on my RPi to update the website. It is so cool to me to have a corner of the internet I can physically locate on a map that is mine. I really enjoyed this project, and hope to continue learning HTML and update the server accordingly. 
+And that's it\! In the end this project took me about 8 + 3 + 2 + 1 hours to research and complete, and I am incredibly happy with the result. As you can see I installed and used Git on my RPi to update the website. It is so cool to me to have a corner of the internet I can physically locate on a map that is mine. I really enjoyed this project, and hope to continue learning HTML and update the server accordingly. 
