@@ -14,11 +14,32 @@
         display: inline-block;
         vertical-align: middle;
       }
+      .pictures {
+        max-width: 15%;
+        height: auto;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 10px;
+      }
+      .pictures_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
       .logo-container {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 20px;
+      }
+      figure {
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+      }
+      figcaption {
+        margin-top: 0px;
+        font-style: italic;
       }
     </style>
   </head>
@@ -59,8 +80,32 @@
     <li>
       This website is hosted on a Raspberry Pi that I set up myself, your
       computer is connected to something inside my apartment right now! Take
-      that AWS. Read about the process on my GitHub repo <a href="https://github.com/bobbobdude/personal-self-hosted-website">here</a>! 
+      that AWS. Read about the process on my GitHub repo
+      <a href="https://github.com/bobbobdude/personal-self-hosted-website">here</a>!
     </li>
   </ul>
-  <p>And many, many more! Also massive thanks to Idun who is simply the best.</p>
+  <p>
+    And many, many more! Also massive thanks to Idun who is simply the best.
+  </p>
+
+  <div class="pictures_container">
+    <figure>
+      <img
+        src="images/tom-serious-with-rpi.jpg"
+        alt="A ginger man with a serious demeanour pointing to a Raspberry Pi mounted on a pegboard"
+        class="pictures"
+      />
+      <figcaption>
+        Fig.1 - Me taking a serious picture with my serious server
+      </figcaption>
+      <img
+        src="images/tom-smiling-with-rpi.jpg"
+        alt="A ginger man smiling while pointing to a Raspberry Pi mounted on a pegboard"
+        class="pictures"
+      />
+      <figcaption>
+        Fig. 2 - Me after my server told me an inside joke (you wouldn't get it)
+      </figcaption>
+    </figure>
+  </div>
 </body>
