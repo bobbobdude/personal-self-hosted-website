@@ -12,7 +12,7 @@ This is the first step in many a Raspberry Pi project, and is a very similar pro
 
 Logging is perhaps a more pertinent issue, as these frequent writes will degrade the SD card faster. As some big writes are less wearing than lots of little writes, I could have used a tool to store the logs in RAM and then set up some kind of cron job to flush the logs to the SD card periodically.
 
-Of course running an OS and web server on an SD card will never be optimal no matter what software garnish we use. A real solution would be something like this \- [https://geekworm.com/products/x85](https://geekworm.com/products/x85) \- that would have allowed me to use an M.2 SSD for everything. 
+Of course running an OS and web server on an SD card will never be optimal no matter what software garnish we use. A real solution would be a shield for the RPi that would have allowed me to use an M.2 SSD for everything. 
 
 ## Configuring Apache2
 
@@ -103,8 +103,7 @@ The final step was configuring my router to reroute incoming traffic that reques
 
 ## Automating site updates after pushing to the repository
 
-After a lot of trouble, I finally got the RPi to automatically pull down new pushes to the webhook almost instantaneously using GitHub webhooks and PHP code that is automatically triggered every time. It is secured via SSH and a secret to ensure only I can trigger this process. Now the website should always be in 
-tandem with this repo. 
+After a lot of trouble, I finally got the RPi to automatically pull down new pushes to the repo here almost instantaneously using GitHub webhooks and PHP code that is automatically triggered every time a push is detected. It is secured via SSH and a secret to ensure only I can trigger this process. Now the website should always be in tandem with this repo. 
 
 ## Automatic backups to Google Drive 
 
