@@ -1,12 +1,23 @@
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
 .center {
     text-align: center;
   }
-  .logo-img {
+  .svg-logo{
+    fill: #000;
+    transition: fill 0.3s ease;
     max-width: 100%;
     height: auto;
     display: inline-block;
     vertical-align: middle;
+
   }
+
+  .svg-logo:hover{
+    fill: #050;
+  }
+
   .pictures {
     max-width: 15%;
     height: auto;
@@ -30,7 +41,31 @@
     text-align: center;
     margin: 0 auto;
   }
+
   figcaption {
     margin-top: 0px;
+    margin-bottom: 15px;
     font-style: italic;
   }
+
+  .nav-menu {
+    display: flex; 
+    justify-content: space-around; 
+    background-color: #050; 
+    padding: 0px 0; 
+    margin: 0;
+}
+
+.nav-menu a {
+  color: #FFF; 
+  text-align: center;
+  padding: 10px 20px; 
+  transition: color 0.3s ease, background-color 0.3s ease;
+  text-decoration: none; 
+  display: block; 
+}
+
+.nav-menu a:hover {
+  color: #050;
+  background-color: #AAF; 
+}
