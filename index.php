@@ -2,22 +2,9 @@
 <html lang="en-US">
 
 <head>
-  <link
-    rel="apple-touch-icon"
-    sizes="180x180"
-    href="images/apple-touch-icon.png" />
-  <link
-    rel="icon"
-    type="image/png"
-    sizes="32x32"
-    href="images/favicon-32x32.png" />
-  <link
-    rel="icon"
-    type="image/png"
-    sizes="16x16"
-    href="images/favicon-16x16.png" />
-  <link rel="manifest" href="images/site.webmanifest" />
+  <?php include "favicon.php"; ?>
   <link rel="stylesheet" href="styles/styles.css" />
+
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
@@ -43,6 +30,11 @@
     <a href="https://www.linkedin.com/in/thomas-gardner-robert/">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="svg-logo">
         <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+      </svg>
+    </a>
+    <a href="mailto:thomasrobertgardner1056@gmail.com">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="svg-logo">
+        <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" />
       </svg>
     </a>
   </div>

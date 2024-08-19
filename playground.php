@@ -2,6 +2,7 @@
 <html lang="en-US">
 
 <head>
+  <?php include "favicon.php"; ?>
   <link rel="stylesheet" href="styles/styles.css" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width = device-width" />
@@ -20,5 +21,8 @@
   <p>
     This is a page that I hope gradually evolves and exemplifies my progress
     with JavaScript, HTML and CSS.
+  </p>
+  <p>
+    <a href="/Instructions.pdf" download="Instructions.pdf">A small PDF for employers to browse through.</a>
   </p>
 </body>
