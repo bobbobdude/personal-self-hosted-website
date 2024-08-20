@@ -71,7 +71,7 @@
         alt="A ginger man with a serious demeanour pointing to a Raspberry Pi mounted on a pegboard"
         class="pictures" />
       <figcaption>
-        Fig.1 - Me taking a serious picture with my serious server
+        Fig.1 - Me taking a serious picture with my serious server (that you are connected to right now!)
       </figcaption>
       <img
         src="images/tom-smiling-with-rpi.jpg"

@@ -23,7 +23,7 @@
     with JavaScript, HTML and CSS.
   </p>
   <p>
-    <a href="/Instructions.pdf" download="Instructions.pdf">A small PDF for employers to browse through.</a>
+    <a href="/Instructions.pdf" download="Instructions.pdf">A small PDF for employers to browse through (PDF 19.3KB).</a>
   </p>
 
   <p><abbr><b>T</b>.<b>O</b>.<b>M</b></abbr> stands for <b>T</b>repedatious <b>O</b>bfuscated <b>M</b>an</p>
