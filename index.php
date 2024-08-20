@@ -16,7 +16,7 @@
   <title>Tom's Developer Profile</title>
 </head>
 
-</html>
+
 
 <body>
   <header><?php include "nav.php"; ?></header>
@@ -83,3 +83,5 @@
     </figure>
   </div>
 </body>
+
+</html>

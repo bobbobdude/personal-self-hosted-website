@@ -13,7 +13,7 @@
   <title>Playground</title>
 </head>
 
-</html>
+
 
 <body>
   <header><?php include "nav.php"; ?></header>
@@ -37,3 +37,5 @@
     <dd>I am man. Man do html. Man get job.</dd>
   </dl>
 </body>
+
+</html>
