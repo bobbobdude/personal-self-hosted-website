@@ -69,19 +69,20 @@
       <img
         src="images/tom-serious-with-rpi.jpg"
         alt="A ginger man with a serious demeanour pointing to a Raspberry Pi mounted on a pegboard"
-        class="pictures" />
+        class="pictures">
       <figcaption>
-        Fig.1 - Me taking a serious picture with my serious server (that you are connected to right now)
+        Fig.1 - Me taking a serious picture pointing to my serious server
       </figcaption>
+    </figure>
+    <figure>
       <img
         src="images/tom-smiling-with-rpi.jpg"
         alt="A ginger man smiling while pointing to a Raspberry Pi mounted on a pegboard"
-        class="pictures" />
+        class="pictures">
       <figcaption>
         Fig. 2 - Me after my server told me an inside joke (you wouldn't get it)
       </figcaption>
     </figure>
   </div>
 </body>
-
 </html>

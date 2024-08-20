@@ -4,7 +4,7 @@
 <head>
   <?php include "favicon.php"; ?>
   <link rel="stylesheet" href="styles/styles.css">
-  <meta charset="utf-8" />
+  <meta charset="utf-8">
   <meta name="viewport" content="width = device-width">
   <meta
     name="description"
@@ -20,7 +20,7 @@
   <h1 class="center">Welcome to the playground!</h1>
   <p>
     This is a page that I hope gradually evolves and exemplifies my progress
-    with JavaScript, HTML and CSS. <strong>It is going to be a mess, that is kind of the point.</strong>
+    with JavaScript, HTML and CSS. <strong>It is going to be a mess - that is kind of the point.</strong>
   </p>
   <p>
     <a href="/Instructions.pdf" download="Instructions.pdf">A small PDF for employers to browse through (PDF 19.3KB)</a>
