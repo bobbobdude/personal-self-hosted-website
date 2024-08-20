@@ -3,15 +3,15 @@
 
 <head>
   <?php include "favicon.php"; ?>
-  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="styles/styles.css">
 
 
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
   <meta
     name="description"
-    content="A small website detailing my (Tom G's) achievements as a developer. A warm welcome to you!" />
-  <meta name="author" content="Thomas Gardner" />
+    content="A small website detailing my (Tom G's) achievements as a developer. A warm welcome to you!">
+  <meta name="author" content="Thomas Gardner">
 
   <title>Tom's Developer Profile</title>
 </head>
@@ -71,7 +71,7 @@
         alt="A ginger man with a serious demeanour pointing to a Raspberry Pi mounted on a pegboard"
         class="pictures" />
       <figcaption>
-        Fig.1 - Me taking a serious picture with my serious server (that you are connected to right now!)
+        Fig.1 - Me taking a serious picture with my serious server (that you are connected to right now)
       </figcaption>
       <img
         src="images/tom-smiling-with-rpi.jpg"
