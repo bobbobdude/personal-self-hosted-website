@@ -25,4 +25,15 @@
   <p>
     <a href="/Instructions.pdf" download="Instructions.pdf">A small PDF for employers to browse through.</a>
   </p>
+
+  <p><abbr><b>T</b>.<b>O</b>.<b>M</b></abbr> stands for <b>T</b>repedatious <b>O</b>bfuscated <b>M</b>an</p>
+
+  <dl>
+    <dt>Trepedatious</dt>
+    <dd>This is a word that I made up another suffix for - because it sounded cool.</dd>
+    <dt>Obfuscated</dt>
+    <dd>Once again a very cool word, this is because I am unclear.</dd>
+    <dt>Man</dt>
+    <dd>I am man. Man do html. Man get job.</dd>
+  </dl>
 </body>
