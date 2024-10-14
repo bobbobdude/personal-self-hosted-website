@@ -19,7 +19,7 @@
 
 <body>
     <header><?php include "nav.php"; ?></header>
-    <h1 class="center">My Developer Profile</h1>
+    <h1 class="center">My Developer Profile - hosted on my Raspberry Pi!</h1>
     <div class="logo-container">
         <a href="https://github.com/bobbobdude">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="svg-logo">
