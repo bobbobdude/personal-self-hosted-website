@@ -1,6 +1,6 @@
 # Making and hosting my own website
 
-## My website: <https://tomdevprofile.zapto.org/>
+## My website: <https://tomdevprofile.zapto.org/> (down for maintenance - transferring to my new proxmox server!)
 
 ## Installing Raspberry Pi OS
 
