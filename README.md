@@ -83,7 +83,7 @@ Watchdog effectively sets parameters that check if the Pi is still chugging alon
 
 ## Configuring Uptime
 
-This was a cool little addition just to track whether the domain is accessible or not, sending me an email if it is not. You can see the public status page here \- [https://stats.uptimerobot.com/aSQkvqlmlG](https://stats.uptimerobot.com/aSQkvqlmlG).
+This was a cool little addition just to track whether the domain is accessible or not, sending me an email if it is not. 
 
 ## Configuring UFP
 
